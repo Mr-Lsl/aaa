@@ -12,6 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint -c .eslintrc src api",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
