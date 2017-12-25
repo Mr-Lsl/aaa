@@ -2,7 +2,7 @@
 echo 开始执行
 echo 下载package.json中的依赖包已完成
 echo 开始进行代码规范检测
-npm run lint
+D:\Jenkins\workspace\github>npm run lint
 echo src目录下代码规范检测完成
 echo 开始进行项目打包
 D:\Jenkins\workspace\github>npm run build
