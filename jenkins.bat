@@ -5,7 +5,7 @@ echo 开始进行代码规范检测
 npm run lint
 echo src目录下代码规范检测完成
 echo 开始进行项目打包
-npm run build
+D:\Jenkins\workspace\github>npm run build
 echo 项目打包完成
 cd src
 dir
