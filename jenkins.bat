@@ -1,13 +1,12 @@
-chcp 936
+ï»¿chcp 936
 @echo off 
-echo ¿ªÊ¼Ö´ÐÐ
-CALL npm install
-echo ÏÂÔØpackage.jsonÖÐµÄÒÀÀµ°üÒÑÍê³É
-echo ¿ªÊ¼½øÐÐ´úÂë¹æ·¶¼ì²â
+echo å¼€å§‹æ‰§è¡Œ
+echo ä¸‹è½½package.jsonä¸­çš„ä¾èµ–åŒ…å·²å®Œæˆ
+echo å¼€å§‹è¿›è¡Œä»£ç è§„èŒƒæ£€æµ‹
 CALL npm run lint
-echo srcÄ¿Â¼ÏÂ´úÂë¹æ·¶¼ì²âÍê³É
-echo ¿ªÊ¼½øÐÐÏîÄ¿´ò°ü
+echo srcç›®å½•ä¸‹ä»£ç è§„èŒƒæ£€æµ‹å®Œæˆ
+echo å¼€å§‹è¿›è¡Œé¡¹ç›®æ‰“åŒ…
 CALL npm run build
-echo ÏîÄ¿´ò°üÍê³É
-echo ¹¹½¨½áÊø
+echo é¡¹ç›®æ‰“åŒ…å®Œæˆ
+echo æž„å»ºç»“æŸ
 pause
