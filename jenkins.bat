@@ -1,3 +1,4 @@
+chcp 936
 @echo off 
 echo ¿ªÊ¼Ö´ÐÐ
 CALL npm install
