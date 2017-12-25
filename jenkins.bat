@@ -1,8 +1,8 @@
-npm install
-echo "ä¸‹è½½package.jsonä¸­çš„ä¾èµ–åŒ…å·²å®Œæˆ"
+@echo off 
+echo "ÏÂÔØpackage.jsonÖĞµÄÒÀÀµ°üÒÑÍê³É"
 npm run lint
-echo "srcç›®å½•ä¸‹ä»£ç è§„èŒƒæ£€æµ‹å®Œæˆ"
+echo "srcÄ¿Â¼ÏÂ´úÂë¹æ·¶¼ì²âÍê³É"
 npm run build
-echo "é¡¹ç›®æ‰“åŒ…å®Œæˆ"
+echo "ÏîÄ¿´ò°üÍê³É"
 cd src
 dir
