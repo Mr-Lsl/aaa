@@ -1,4 +1,4 @@
-npm install
+
 echo "下载package.json中的依赖包已完成"
 npm run lint
 echo "src目录下代码规范检测完成"
